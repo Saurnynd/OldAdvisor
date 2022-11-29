@@ -7,7 +7,7 @@ import advisor.oauth.exception.AuthException;
 import static advisor.Config.AUTH_SERVER;
 
 public class AuthCm implements Command {
-    private static final String AUTH_COMMAND = "categories";
+    private static final String AUTH_COMMAND = "auth";
     @Override
     public String name() {
         return AUTH_COMMAND;
